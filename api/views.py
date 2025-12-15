@@ -4,8 +4,8 @@ from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 
 VERIFY_TOKEN = "miverifytoken"  # Puedes cambiarlo
-WHATSAPP_TOKEN = "TU_TOKEN_AQUI"
-WHATSAPP_PHONE_ID = "TU_PHONE_ID_AQUI"
+WHATSAPP_TOKEN = "EAA8H2l4cIUIBQJe5xdTJUTN9MYbFbhiy9B62a7hXXhbX2y04ZCmFFiIMCgvNcwvEhk9NUm2KsaVYtwCDabmKWMDw0ZBANwZAvK3Evz6QXGGlh2NeV8Khk9NL1cXQCJ0aSZAUbbIQFvcvAh1hTuMkcw1ktAcqrU9lAPdIRl1oScAr8GrOX0Dqms3LSw8ZADmGG4a6hS3ELH0FdFq07S9r14R1M8SCb40OmBOXXZCrZBLaOXZARxe9gFd7uMcwee1AETikLnub5hEwRxAcgFZAAZBAu0NgZDZD"
+WHATSAPP_PHONE_ID = "+584246188448"
 
 @csrf_exempt
 def whatsapp_webhook(request):
